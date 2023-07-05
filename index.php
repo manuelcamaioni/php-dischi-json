@@ -10,6 +10,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js">
+
     <link rel="stylesheet" href="./styles/style.css">
     <script src="./script/main.js" defer></script>
 
@@ -26,7 +28,7 @@
         </header>
         <main>
             <div class="my-container">
-                
+
             </div>
         </main>
     </div>
