@@ -29,16 +29,16 @@
         </header>
         <main>
             <div class="my-container">
-                <ul>
-                    <li v-for="record in records">
+                <ul class="ps-0 d-flex flex-wrap justify-content-between my-2">
+                    <li v-for="record in records" class="my-2">
                         <div class="my-card">
-                            <div class="poster-container">
-                                <img :src="record.poster" :alt="record.author">
+                            <div class="poster-container w-100 p-3">
+                                <img :src="record.poster" :alt="record.author" class="w-100">
                             </div>
-                            <div class="poster-info">
-                                <h1>{{ record.title }}</h1>
-                                <h2>{{record.author}}</h2>
-                                <span>{{record.year}}</span>
+                            <div class="poster-info text-white text-center p-2">
+                                <h1 class="title fw-bold">{{ record.title }}</h1>
+                                <h2 class="author">{{record.author}}</h2>
+                                <span class="year fw-bold">{{record.year}}</span>
                             </div>
                         </div>
 

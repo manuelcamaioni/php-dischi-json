@@ -1,4 +1,4 @@
-:root {
+body {
     background-color: #1d2d3c;
 }
 
@@ -13,6 +13,28 @@ nav {
 }
 
 .my-container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    max-width: calc(100% / 3 - 1.5rem);
+    background-color: #112030;
+    border-radius: 0.375rem;
+}
+
+.title {
+    font-size: 0.9rem;
+}
+
+.author {
+    font-size: 0.7rem;
+}
+
+.year {
+    font-size: 0.8rem;
 }
