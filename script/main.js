@@ -1,12 +1,30 @@
 const { createApp } = Vue;
 createApp({
     data() {
-        return {};
+        return {
+            records: [],
+        };
     },
 
     created() {},
 
-    mounted() {},
+    mounted() {
+        this.apiCall();
+    },
 
-    methods: {},
+    methods: {
+        apiCall() {
+            axios
+                .get("./server.php")
+                .then((response) => {
+                    // handle success
+                    console.log(response.data);
+                    this.records = response.data;
+                })
+                .catch((error) => {
+                    // handle error
+                    console.log(error);
+                });
+        },
+    },
 }).mount("#app");
