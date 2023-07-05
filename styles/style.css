@@ -1,0 +1,18 @@
+:root {
+    background-color: #1d2d3c;
+}
+
+nav {
+    background-color: #06131f;
+    padding: 0.5rem 0;
+}
+
+.logo-container i {
+    color: #18d860;
+    font-size: 1.5rem;
+}
+
+.my-container {
+    width: 80%;
+    margin: 0 auto;
+}
